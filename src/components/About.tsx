@@ -4,7 +4,7 @@ import { useRef } from "react";
 
 const stats = [
   { icon: Code2, label: "Years Experience", value: "3+" },
-  { icon: GraduationCap, label: "Education", value: "M.S. : CS" },
+  { icon: GraduationCap, label: "Education", value: "Masters" },
   { icon: Palette, label: "Technologies", value: "10+" },
 ];
 
