@@ -2,12 +2,13 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../components/ui/button"
+import ThemeToggle from "../components/ThemeToggle";
 
 const navLinks = [
   { label: "About", href: "#about" },
-  { label: "Work Experience", href: "#contact" },
-  { label: "Skills", href: "#skills" },
+  { label: "Work Experience", href: "#timeline" },
   { label: "Projects", href: "#projects" },
+  { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" }
 ];
 
@@ -25,7 +26,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <a href="#" className="font-mono text-xl font-bold">
             <span className="text-primary">{"<"}</span>
-            SBejugam
+            SBejuagm
             <span className="text-primary">{" />"}</span>
           </a>
 
@@ -40,6 +41,7 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
+            <ThemeToggle />
             {/* <Button size="sm">Hire Me</Button> */}
           </div>
 

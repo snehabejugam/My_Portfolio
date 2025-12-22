@@ -152,7 +152,7 @@ const Hero = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-               <a href="#projects">
+               <a href="#timeline">
               <Button size="lg" className="group">
                 View My Work
                 <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
