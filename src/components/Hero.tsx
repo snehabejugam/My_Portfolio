@@ -13,8 +13,8 @@ const Hero = () => {
 
   const roles = [
     "Full Stack Developer",
-    "Ex - Associate Software Engineer",
     "Tech Enthusiast",
+    "AI Explorer"
   ];
   
   const { currentText } = useTypewriter({

@@ -72,7 +72,9 @@ const Navbar = () => {
                 >
                   {link.label}
                 </a>
+                
               ))}
+              <ThemeToggle />
               {/* <Button size="sm" className="w-fit">Hire Me</Button> */}
             </div>
           </motion.div>
