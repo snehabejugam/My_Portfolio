@@ -5,21 +5,15 @@ import { useRef } from "react";
 
 const projects = [
   {
-    title: "FashON — AI-Powered Virtual Wardrobe",
-    description: "An intelligent AI-powered personal styling mobile app that delivers outfit recommendations along with accessories, provides style ratings using machine learning, and allows users to save styles for later use.",
-    tech: ["Android", "iOS",  "Flutter",  "Machine Learning"],
-    github: "https://github.com/saipreetham99/FashON",
-  },
-  {
     title: "Image Super Resolution (TransGAN > GAN > CNN)",
     description: "A computer vision proof-of-concept demonstrating how TransGAN outperforms standalone GANs and Transformers by combining the strengths of both architectures.",
     tech: [ "Computer Vision", "Transformers", "CNNs", "GANs"],
     github: "https://github.com/snehabejugam/Image-Super-Resolution",
   },
   {
-    title: "Resume Ranking and Analysis System",
-    description: "A dual-purpose resume analysis platform that enables recruiters to rank resumes against job descriptions while helping applicants identify missing skills and areas for improvement based on job requirements.",
-    tech: ["React", "Flask", "Spacy", "SciKit-Learn"],
+    title: "AI Resume Screening System",
+    description: "A NLP-powered resume screening system using spaCy, scikit-learn, and TF-IDF, reducing recruiter review time.and Integrated Gemini API to deliver resume-JD matching analysis and actionable optimization suggestions for  applicants",
+    tech: ["React", "Flask", "Spacy", "Gemini API"],
     github: "https://github.com/snehabejugam/Resume_Ranking_and_Analysis_System",
   },
   {
@@ -83,7 +77,7 @@ const Projects = () => {
           </motion.p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
+         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => {
             const row = Math.floor(index / 3);
             const isEvenRow = row % 2 === 0;
