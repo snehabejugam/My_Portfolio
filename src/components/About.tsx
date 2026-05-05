@@ -92,8 +92,8 @@ const About = () => {
 
           <motion.div style={{ y }} className="space-y-6">
             {[
-              "I'm a full-stack engineer who builds AI-powered products from scratch. As a founding engineer at Word of Mouth Technologies, I've shipped systems that improved pronunciation accuracy by 63% and automated away 30% of manual work.",
-    "I specialize in the full stack: React and Angular frontends, Python backends, cloud platforms (AWS, Azure), and data pipelines (Snowflake, Databricks, Airflow). I thrive in startup environments where speed matters—where you own problems end-to-end and ship solutions that scale.",
+              "Solving complex problems and turning them into reliable, scalable systems is at the core of how I approach engineering. As a founding engineer at Word of Mouth Technologies, I built systems that improved pronunciation accuracy by 63% and reduced manual effort by 30%, delivering measurable impact through practical solutions.",
+    "I specialize in the full stack: React and Angular frontends, Python backends, cloud platforms (AWS, Azure), and data pipelines (Snowflake, Airflow). I thrive in startup environments where speed matters where you own problems end-to-end and ship solutions that scale.",
     "M.S. in Computer and Information Science from Syracuse University. AWS and Snowflake certified. Currently seeking full-time opportunities where I can build impactful products and solve challenging problems.",
              
             ].map((text, index) => (
