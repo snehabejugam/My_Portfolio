@@ -92,11 +92,9 @@ const About = () => {
 
           <motion.div style={{ y }} className="space-y-6">
             {[
-              "Some of these sentences might sound cliché, but they are honestly true in my case.",
-              "Current status: A graduate from Syracuse University, actively searching for a full-time role (hoping this line changes very soon 😄).",
-              "I’m naturally curious. I may not know everything, but I learn quickly and enjoy turning ideas into reality. I’m a strong team player and also take full ownership of my work, qualities I truly discovered in me during my internships and my master’s journey. And yes, these lines are not AI-generated.",
-              "Beyond my professional life, which you’ll see as you scroll further. I value my personal life just as much; I love traveling, experiencing new places, and trying different cuisines. A good cup of Chai and an energetic environment bring out the best in me. I’m a big movie enthusiast, enjoy listening to music, and often unwind with long walks, good food, and meaningful conversations.",
-              "I like my work to be challenging, my days to feel purposeful, and my nights to end with a sense of accomplishment, going to sleep satisfied with what I built today and excited to create something even better tomorrow.",
+              "I'm a full-stack engineer who builds AI-powered products from scratch. As a founding engineer at Word of Mouth Technologies, I've shipped systems that improved pronunciation accuracy by 63% and automated away 30% of manual work.",
+    "I specialize in the full stack: React and Angular frontends, Python backends, cloud platforms (AWS, Azure), and data pipelines (Snowflake, Databricks, Airflow). I thrive in startup environments where speed matters—where you own problems end-to-end and ship solutions that scale.",
+    "M.S. in Computer and Information Science from Syracuse University. AWS and Snowflake certified. Currently seeking full-time opportunities where I can build impactful products and solve challenging problems.",
              
             ].map((text, index) => (
               <motion.p
