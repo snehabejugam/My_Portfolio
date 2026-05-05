@@ -142,8 +142,8 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-muted-foreground text-lg max-w-2xl mx-auto mb-10"
           >
-            Curious at heart, I enjoy building, learning, and refining ideas into meaningful outcomes.
-            Driven by growth, clarity, and the joy of creating with purpose.
+            Software Engineer specializing in AI integration and scalable systems. I build end-to-end solutions—from React frontends to data pipelines—that deliver real impact.
+
           </motion.p>
 
           <motion.div
