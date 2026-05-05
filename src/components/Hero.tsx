@@ -142,7 +142,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-muted-foreground text-lg max-w-2xl mx-auto mb-10"
           >
-            Software Engineer with 3+ years of experience building scalable systems and AI-powered solutions. Currently seeking full-time opportunities.
+            Software Engineer with 3+ years of experience building scalable systems and AI-powered solutions. Currently seeking new opportunities.
 
           </motion.p>
 

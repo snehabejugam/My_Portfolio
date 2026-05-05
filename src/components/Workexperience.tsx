@@ -14,7 +14,7 @@ interface TimelineItem {
 const timelineData: TimelineItem[] = [
   {
     id: 1,
-    title: "Full Stack Developer Intern",
+    title: "Full Stack Developer",
     organization: "Word of Mouth Technologies",
     period: "2025 - Present",
     description: "As a founding engineer, I was part of platform’s full-stack development. Built a dynamic Angular frontend from Figma designs and integrated it with PostgreSQL and Firebase. integrated Azure Speech Services with optimized APIs to enable real-time speech processing and enhance user engagement.",
