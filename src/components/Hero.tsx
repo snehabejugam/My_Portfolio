@@ -142,7 +142,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-muted-foreground text-lg max-w-2xl mx-auto mb-10"
           >
-            Software Engineer specializing in AI integration and scalable systems. I build end-to-end solutions, from React frontends to data pipelines, that deliver real impact.
+            Software Engineer with 3+ years of experience building scalable systems and AI-powered solutions. Currently seeking full-time opportunities.
 
           </motion.p>
 
