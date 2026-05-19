@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ExternalLink, Folder } from "lucide-react";
-import { Button } from "../components/ui/button";
+import { Button } from "./ui/button";
 import { useRef } from "react";
 
 const projects = [
@@ -32,7 +32,7 @@ const AIProjects = () => {
   const headerOpacity = useTransform(scrollYProgress, [0, 0.2], [0, 1]);
 
   return (
-    <section ref={ref} id="projects" className="py-24 relative overflow-hidden">
+    <section ref={ref} id="aiprojects" className="py-24 relative overflow-hidden">
       {/* Parallax background elements */}
       <motion.div
         style={{ y: useTransform(scrollYProgress, [0, 1], [0, -100]) }}
