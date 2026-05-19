@@ -1,30 +1,27 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ExternalLink, Github, Folder } from "lucide-react";
+import { ExternalLink, Folder } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { useRef } from "react";
 
 const projects = [
   {
-    title: "Image Super Resolution (TransGAN > GAN > CNN)",
-    description: "A computer vision proof-of-concept demonstrating how TransGAN outperforms standalone GANs and Transformers by combining the strengths of both architectures.",
-    tech: [ "Computer Vision", "Transformers", "CNNs", "GANs"],
-    github: "https://github.com/snehabejugam/Image-Super-Resolution",
+    title: "AI Stroytime",
+    description: "AI-powered children's book generator that transforms story ideas into print-ready publications in 15 minutes. Built with React, FastAPI, and AWS. Integrates Claude Sonnet for narrative generation and Google Imagen 4 for illustration, with automated PDF assembly using fpdf2. Generates professional interior and cover PDFs with ISBN barcodes for direct upload to Amazon KDP and other print-on-demand services.",
+    tech: [ "Claude API", "Gemini Imagen Model", "AWS (S3 + Dynamo + Cognito)", "React", "FastAPI", ],
   },
   {
-    title: "AI Resume Screening System",
-    description: "A NLP-powered resume screening system using spaCy, scikit-learn, and TF-IDF, reducing recruiter review time.and Integrated Gemini API to deliver resume-JD matching analysis and actionable optimization suggestions for  applicants",
-    tech: ["React", "Flask", "Spacy", "Gemini API"],
-    github: "https://github.com/snehabejugam/Resume_Ranking_and_Analysis_System",
+    title: "FabricFlow - Generative AI Orchestration",
+    description: "Fashion content platform transforming fabric images into Instagram reels through multi-modal AI orchestration. Processes uploads through Gemini 2.0 for photorealistic model generation and bilingual captions, then ElevenLabs neural TTS for Hindi voiceovers and background music. Reduces fashion marketing content creation from 2-hour manual workflow to 30-second automated generation, deployed on AWS infrastructure for real-time scalability.",
+    tech: ["Google Gemini 2.0 Flash", "RESTful API", "AWS", "ElevenLabs","React", "Node.js"], 
   },
   {
-    title: "Ventilator Assistance Portal",
-    description: "A real-time, web-based ventilator tracking system built during the COVID-19 pandemic to manage ventilator availability across hospitals using live updates, CRUD operations, and centralized data management.",
-    tech: ["Node.js", "MongoDB", "RestAPI", "Postman"],
-    github: "https://github.com/snehabejugam/Ventilator_Assistance_Portal",
+    title: "FashON: AI-Powered Personal Styling App",
+    description: "Built an AI fashion assistant for iOS and Android that rates outfits, suggests personalized combinations, and analyzes garment compatibility using ML models, with AI-generated outfit visualizations via OpenAI DALL·E 2 API. Architected the Flutter app using MVVM pattern with Firebase Authentication and Firestore security rules for secure user-level data isolation.",
+    tech: ["Flutter", "iOS", "Android", "OpenAI DALL·E 2 API", "Firebase", "Firestore"],
   },  
 ];
 
-const Projects = () => {
+const AIProjects = () => {
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -57,7 +54,7 @@ const Projects = () => {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-bold mb-4"
           >
-            Core <span className="text-gradient">Projects</span>
+            GenAI <span className="text-gradient">Projects</span>
           </motion.h2>
           <motion.div 
             initial={{ scaleX: 0 }}
@@ -73,7 +70,7 @@ const Projects = () => {
             transition={{ delay: 0.3 }}
             className="text-muted-foreground mt-6 max-w-2xl mx-auto"
           >
-            Production systems built with modern web technologies and scalable architecture
+           AI-powered applications leveraging LLMs and generative models for real-world use cases.
           </motion.p>
         </motion.div>
 
@@ -125,7 +122,7 @@ const Projects = () => {
                     <Folder className="h-10 w-10 text-primary" />
                   </motion.div>
                   <div className="flex gap-3">
-                    <motion.a
+                    {/* <motion.a
                       href={project.github}
                       target = "_blank"
                       rel="noopener noreferrer"  
@@ -133,8 +130,8 @@ const Projects = () => {
                       whileTap={{ scale: 0.9 }}
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      <Github className="h-5 w-5" />
-                    </motion.a>
+                      
+                    </motion.a> */}
                     {/* <motion.a
                       href={project.live}
                       whileHover={{ scale: 1.2, y: -3 }}
@@ -199,4 +196,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default AIProjects;
