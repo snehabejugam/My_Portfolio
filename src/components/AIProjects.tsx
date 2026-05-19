@@ -32,7 +32,7 @@ const AIProjects = () => {
   const headerOpacity = useTransform(scrollYProgress, [0, 0.2], [0, 1]);
 
   return (
-    <section ref={ref} id="aiprojects" className="py-24 relative overflow-hidden">
+    <section ref={ref} id="aiprojects" className="py-16 relative overflow-hidden">
       {/* Parallax background elements */}
       <motion.div
         style={{ y: useTransform(scrollYProgress, [0, 1], [0, -100]) }}

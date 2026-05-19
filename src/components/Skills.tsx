@@ -39,7 +39,7 @@ const Skills = () => {
   const cardsY = useTransform(scrollYProgress, [0, 1], [100, -50]);
 
   return (
-    <section ref={ref} id="skills" className="py-24 relative overflow-hidden">
+    <section ref={ref} id="skills" className="py-18 relative overflow-hidden">
       {/* Parallax gradient background */}
       <motion.div 
         style={{ y: backgroundY }}

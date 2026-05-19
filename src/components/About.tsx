@@ -21,7 +21,7 @@ const About = () => {
   const scale = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0.8, 1, 1, 0.8]);
 
   return (
-    <section ref={ref} id="about" className="py-24 relative overflow-hidden">
+    <section ref={ref} id="about" className="py-16 relative overflow-hidden">
       {/* Floating background elements */}
       <motion.div 
         style={{ y: useTransform(scrollYProgress, [0, 1], [0, -200]) }}
