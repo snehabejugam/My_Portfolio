@@ -35,3 +35,5 @@ node_modules/.vite
 
 # Test coverage
 coverage
+node_modules/
+.DS_Store
