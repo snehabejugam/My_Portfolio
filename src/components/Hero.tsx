@@ -13,7 +13,7 @@ const Hero = () => {
 
   const roles = [
     "Ex - Associate SE",
-    "AI Product Developer",
+    "AI Application Engineer",
     "GenAI Enthusiast",
   ];
   

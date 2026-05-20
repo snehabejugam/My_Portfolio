@@ -8,7 +8,7 @@ const navLinks = [
   { label: "About", href: "#about" },
   { label: "Work Experience", href: "#timeline" },
   { label: "GenAI Projects", href: "#aiprojects" },
-  { label: "Projects", href: "#projects" },
+  { label: "Core Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" }
 ];

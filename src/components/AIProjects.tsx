@@ -11,12 +11,12 @@ const projects = [
   },
   {
     title: "FabricFlow - Generative AI Orchestration",
-    description: "Fashion content platform transforming fabric images into Instagram reels through multi-modal AI orchestration. Processes uploads through Gemini 2.0 for photorealistic model generation and bilingual captions, then ElevenLabs neural TTS for Hindi voiceovers and background music. Reduces fashion marketing content creation from 2-hour manual workflow to 30-second automated generation, deployed on AWS infrastructure for real-time scalability.",
+    description: "Fashion content platform transforming fabric images into Instagram reels through multi-modal AI orchestration. Users upload fabric images, which are processed by Gemini 2.0 Flash for photorealistic model generation and bilingual caption creation, paired with ElevenLabs neural TTS for Hindi voiceovers and background music integration. Reduces fashion marketing content creation from 2-hour manual workflow to 30-second automated generation, deployed on AWS infrastructure for real-time scalability.",
     tech: ["Google Gemini 2.0 Flash", "RESTful API", "AWS", "ElevenLabs","React", "Node.js"], 
   },
   {
     title: "FashON: AI-Powered Personal Styling App",
-    description: "Built an AI fashion assistant for iOS and Android that rates outfits, suggests personalized combinations, and analyzes garment compatibility using ML models, with AI-generated outfit visualizations via OpenAI DALL·E 2 API. Architected the Flutter app using MVVM pattern with Firebase Authentication and Firestore security rules for secure user-level data isolation.",
+    description: "AI fashion assistant for iOS and Android that rates outfits, suggests personalized combinations, and analyzes garment compatibility using ML models, with AI-generated outfit visualizations via OpenAI DALL·E 2 API from your closet. Architected the Flutter app using MVVM pattern with Firebase Authentication and Firestore security rules for secure user-level data isolation.",
     tech: ["Flutter", "iOS", "Android", "OpenAI DALL·E 2 API", "Firebase", "Firestore"],
   },  
 ];
