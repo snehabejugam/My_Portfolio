@@ -180,7 +180,7 @@ const Hero = () => {
             {[
               { Icon: Github, href: "https://github.com/snehabejugam" },
               { Icon: Linkedin, href: "https://www.linkedin.com/in/sbejugam/" },
-              { Icon: Mail, href: "mailto:sbejugam@syr.edu" },
+              { Icon: Mail, href: "mailto:snehabejugam19@gmail.com" },
             ].map(({ Icon, href }, index) => (
               <motion.a
                 key={index}

@@ -7,7 +7,7 @@ import { useState, useRef } from "react";
 import { toast } from "sonner";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "sbejugam@syr.edu" },
+  { icon: Mail, label: "Email", value: "snehabejugam19@gmail.com" },
   { icon: Phone, label: "Phone", value: "+1 (315) 278-0002" },
   { icon: MapPin, label: "Location", value: "New York" },
 ];
@@ -39,7 +39,8 @@ const Contact = () => {
   Message:
   ${formData.message}`;
 
-  window.location.href = `mailto:sbejugam@syr.edu?subject=${encodeURIComponent(
+  window.location.href = `mailto:snehabejugam19@gmail.com
+  ?subject=${encodeURIComponent(
     subject
   )}&body=${encodeURIComponent(body)}`; 
   };
